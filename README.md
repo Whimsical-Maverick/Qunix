@@ -1,2 +1,3 @@
 # Qunix
-A quantum simulation of OS based algorithms
+
+A simulation of quantum based algorithms
