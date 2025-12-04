@@ -1,0 +1,46 @@
+  body {
+    background: #000;
+    color: #00ff99;
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+  }
+  #main-container {
+  border: 1px solid #00ff99;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90vw;              /* take 90% of viewport width */
+  height: 85vh;             /* take 85% of viewport height */
+  max-width: 1600px;        /* optional upper limit for very large screens */
+  overflow-y: auto;
+  box-shadow: 0 0 20px #00ff99;
+  margin: 5vh auto;         /* center it vertically & horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+  .same-font {
+    font-family: 'Courier New', monospace;
+    background: transparent;
+    color: #00ff99;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  .prompt {
+    color: #00ff99;
+  }
+  .output {
+    white-space: pre-line;
+    color: #00ff99;
+  }
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background-color: #00ff99;
+    margin-left: 2px;
+    animation: blink 1s step-start infinite;
+  }

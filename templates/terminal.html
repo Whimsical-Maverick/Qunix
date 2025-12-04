@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quinix Terminal</title>
+<link rel="stylesheet" href="{{url_for('static',filename='terminal.css')}}">
+</head>
+<body>
+
+<div id="main-container">
+  <div class="prompt">Welcome to Quinix</div>
+  <div class="prompt">Type <b>help</b> for the list of commands</div>
+  <br>
+  <span class="prompt">.\Quinix\> </span><input type="text" id="Input" class="same-font" autofocus>
+</div>
+
+<script src="{{url_for('static',filename='terminal.js')}}"></script>
+</body>
+</html>
